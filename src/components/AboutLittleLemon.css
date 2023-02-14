@@ -1,0 +1,57 @@
+.about-us {
+  background-color: #f4ce14;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.25rem 5rem 2.5rem 5rem;
+  min-height: 22rem;
+  margin-bottom: -1rem;
+  grid-gap: 20vw;
+}
+.about-h1 {
+  font-size: 2.5rem;
+  /* margin-top: 0rem; */
+  margin-bottom: 0;
+  font-family: "Markazi Text", "Karla", serif;
+  /* color: #3a4b46; */
+  color: #495e57;
+}
+.about-h2 {
+  font-size: 2rem;
+  margin-top: 0rem;
+  font-family: "Markazi Text", "Karla", serif;
+  color: #495e57;
+  margin-bottom: 3rem;
+}
+.about-subtext {
+  margin-top: -0.7rem;
+  font-size: 1.2rem;
+  line-height: 1.3;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #3a4b46;
+}
+
+.double-image {
+  max-height: 18rem;
+  position: relative;
+  top: 4rem;
+  left: 2rem;
+}
+
+.double-image > img {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.about-2 {
+  position: absolute;
+  top: -3.1rem;
+  left: 8rem;
+}

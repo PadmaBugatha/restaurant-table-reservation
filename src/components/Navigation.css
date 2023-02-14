@@ -1,0 +1,79 @@
+/*
+  first-color: #f4ce14;
+  background-color: #495e57;
+*/
+
+* {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Rubik", sans-serif;
+}
+/* nav {
+  background: #ee9972;
+  padding: 20px;
+} */
+.header-style {
+  /* background: #ffffff; */
+  /* background: #ee9972; */
+  /* padding: 20px; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 12px;
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.nav-item.btun {
+  padding: 0.7rem 1.8rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #ecc607;
+  letter-spacing: 0.03em;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.nav-item {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0px 20px;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+nav a {
+  color: #edefee;
+  text-decoration: none;
+  font-size: 16px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: 3rem;
+}
+/* .navigate-bar .header {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.97);
+} */
+
+/* STICKY NAVIGATION
+.navigate-bar .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.navigate-bar .section-hero {
+  margin-top: 9.6rem;
+} */
